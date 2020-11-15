@@ -4,7 +4,7 @@ while True:
 
     # Perguntar qual é o tipo de operação
     operacao = input('Qual opreração (+, -, *, /)? ou \'Q\' para sair ')
-    if operacao == 'Q' or operacao == 'q':
+    if operacao in 'Qq':
         break
 
     elif operacao == '+' or operacao == '-' or operacao == '*' or operacao == '/':    
